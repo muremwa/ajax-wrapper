@@ -144,5 +144,3 @@ const ajax = (() => {
         post: (options: postOptions): void => _post_request_(options),
     }
 })();
-
-console.log(ajax)
