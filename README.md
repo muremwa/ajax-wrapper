@@ -70,4 +70,4 @@ Both take in a variable 'options' which is an object with callbacks to handle th
       ajax.post(options);
    ```
 
-> Ensure the ajaxWrapper.js is available. Download from [here](https://github.com/muremwa/).
+> Ensure the ajaxWrapper.js is available. Download from [here](https://github.com/muremwa/ajax-wrapper/releases/download/1.0/ajaxWrapper.js).
