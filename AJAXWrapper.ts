@@ -18,6 +18,7 @@ const ajax = (() => {
     const xhr = new XMLHttpRequest();
 
     const addHeaders = (headers: header[], cross?: boolean): void => {
+        cross? headers.push(crossSiteHeader): void 0;
         headers.forEach((header) => {
             xhr.setRequestHeader(header.name, header.value);
         });
